@@ -22,6 +22,7 @@ keras-loan-default-prediction/
 │   └── Keras-Project.ipynb
 └── models/
     ├── fullproject.keras        # Saved model (after training)
+
 ✨ Features
 
 Handles missing values, categorical encoding, and feature scaling

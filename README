@@ -1,0 +1,57 @@
+🚀 Loan Default Prediction using Keras & TensorFlow
+
+
+
+
+
+
+
+
+This project predicts loan default risk using the Lending Club dataset with a Deep Learning model built in Keras/TensorFlow.
+It demonstrates the full machine learning workflow: data preprocessing, model training, evaluation, and deployment-ready prediction scripts.
+
+📂 Project Structure
+keras-loan-default-prediction/
+├── README.md
+├── requirements.txt
+├── main.py                 # Train, evaluate & save model + preprocessing
+├── predict.py              # Load model & run predictions
+├── data/
+│   └── lending_club_loan_two.csv,lending_club_info.csv
+├── notebooks/
+│   └── Keras-Project.ipynb
+└── models/
+    ├── fullproject.keras        # Saved model (after training)
+✨ Features
+
+Handles missing values, categorical encoding, and feature scaling
+
+Neural Network with dropout layers to prevent overfitting
+
+Early stopping for optimal performance
+
+Evaluation metrics: Accuracy & ROC-AUC
+
+Deployment-ready scripts: predict.py works with CSV or JSON input
+
+
+🧠 Model Architecture
+
+Dense (128, ReLU) + Dropout (0.3)
+
+Dense (64, ReLU) + Dropout (0.2)
+
+Dense (1, Sigmoid) → Binary classification
+
+
+📌 Tech Stack
+
+Python 3.8+
+
+TensorFlow / Keras
+
+Pandas, NumPy
+
+Scikit-learn
+
+Joblib
